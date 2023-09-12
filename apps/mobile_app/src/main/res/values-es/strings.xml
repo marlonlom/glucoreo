@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="text_units_mmoll">Milimoles por litro (mmol/L)</string>
+  <string name="text_units_mgdl">Miligramos por decilitro (mg/dl)</string>
+  <string name="text_welcome_title">Bienvenido a Glucoreo</string>
+  <string name="text_welcome_signin_btn_content_description">Icono para iniciar sesión con Google</string>
+  <string name="text_welcome_signin_btn">Continuar con Google</string>
+  <string name="text_welcome_image_content_description">Imagen de logo de aplicación</string>
+  <string name="text_welcome_description_1">Si ud es alguien que necesita ayuda para registrar y realizar un seguimiento de sus niveles de azúcar en sangre, </string>
+  <string name="text_welcome_description_2"> es para usted.</string>
+  <string name="text_welcome_description_3">Aquí puede registrar y realizar un seguimiento de sus niveles de glucosa en sangre.</string>
+  <string name="text_genre_male">Hombre</string>
+  <string name="text_genre_female">Mujer</string>
+  <string name="text_diabetes_type_1">Tipo 1</string>
+  <string name="text_diabetes_type_2">Tipo 2</string>
+  <string name="text_diabetes_gestational">Gestacional</string>
+  <string name="text_onboarding_title_genre">Selecciona tu género</string>
+  <string name="text_onboarding_title_age_range">Selecciona tu edad</string>
+  <string name="text_onboarding_title_diabetes_type">Selecciona el tipo de diabetes</string>
+  <string name="text_onboarding_title_measurement_unit">Selecciona la unidad de medida</string>
+  <string name="text_onboarding_completion_message">Para continuar, cuéntanos un poco más sobre ti, para así poder realizar controles de glucosa más detallados.</string>
+  <string name="text_onboarding_title_top_bar">Crea tu perfil</string>
+  <string name="text_onboarding_button_save">Guardar</string>
+  <string name="text_age_range_06">62 o más</string>
+  <string name="text_home_fab_create_lecture">Botón para registrar nueva lectura de glucosa</string>
+  <string name="text_home_greeting">¡Hola!</string>
+</resources>

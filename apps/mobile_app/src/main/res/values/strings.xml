@@ -1,0 +1,33 @@
+<resources>
+  <string name="app_name" translatable="false">Glucoreo</string>
+  <string name="web_client_id" translatable="false">857951100148-b32gpaidihr596r95l9qjk08dbbebe49.apps.googleusercontent.com</string>
+  <string name="text_units_mmoll">Millimoles per litre (mmol/L)</string>
+  <string name="text_units_mgdl">Milligram per deciliter (mg/dl)</string>
+  <string name="text_welcome_title">Welcome to Glucoreo</string>
+  <string name="text_welcome_signin_btn_content_description">Icon for Login with Google</string>
+  <string name="text_welcome_signin_btn">Continue with Google</string>
+  <string name="text_welcome_image_content_description">application logo</string>
+  <string name="text_welcome_description_1">If you’re someone who needs help registering and tracking your blood sugar levels, </string>
+  <string name="text_welcome_description_2"> is for you.</string>
+  <string name="text_welcome_description_3">Here, you can record and track your blood glucose levels.</string>
+  <string name="text_genre_male">Male</string>
+  <string name="text_genre_female">Female</string>
+  <string name="text_diabetes_type_1">Type 1</string>
+  <string name="text_diabetes_type_2">Type 2</string>
+  <string name="text_diabetes_gestational">Gestational</string>
+  <string name="text_onboarding_title_genre">Select your genre</string>
+  <string name="text_onboarding_title_age_range">Select your age</string>
+  <string name="text_onboarding_title_diabetes_type">Select your diabetes type</string>
+  <string name="text_age_range_01" translatable="false">18 – 26</string>
+  <string name="text_age_range_02" translatable="false">27 – 35</string>
+  <string name="text_age_range_03" translatable="false">36 – 44</string>
+  <string name="text_age_range_04" translatable="false">45 – 53</string>
+  <string name="text_age_range_05" translatable="false">54 – 62</string>
+  <string name="text_age_range_06">62 or more</string>
+  <string name="text_onboarding_title_measurement_unit">Select your desired measurement unit</string>
+  <string name="text_onboarding_completion_message">To continue, tell us a little more about yourself, so we can perform more detailed glucose controls.</string>
+  <string name="text_onboarding_button_save">Save</string>
+  <string name="text_home_fab_create_lecture">Register new glucose lecture</string>
+  <string name="text_onboarding_title_top_bar">Create your profile</string>
+  <string name="text_home_greeting">Hi there!</string>
+</resources>
