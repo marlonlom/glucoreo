@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2023 Marlonlom
+  ~ SPDX-License-Identifier: Apache-2.0
+  -->
+
 <resources>
   <string name="text_units_mmoll">Milimoles por litro (mmol/L)</string>
   <string name="text_units_mgdl">Miligramos por decilitro (mg/dl)</string>

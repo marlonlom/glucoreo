@@ -1,3 +1,8 @@
+/*
+ * Copyright 2023 Marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
   id("java-library")

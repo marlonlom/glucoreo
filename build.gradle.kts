@@ -1,3 +1,8 @@
+/*
+ * Copyright 2023 Marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 @file:Suppress("DSL_SCOPE_VIOLATION")
 

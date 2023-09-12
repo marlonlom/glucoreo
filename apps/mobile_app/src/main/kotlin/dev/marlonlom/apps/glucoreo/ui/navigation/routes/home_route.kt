@@ -1,3 +1,8 @@
+/*
+ * Copyright 2023 Marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 package dev.marlonlom.apps.glucoreo.ui.navigation.routes
 
 import androidx.compose.ui.Modifier

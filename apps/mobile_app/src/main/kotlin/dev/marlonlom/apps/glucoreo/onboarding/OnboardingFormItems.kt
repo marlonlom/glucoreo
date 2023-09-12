@@ -1,3 +1,8 @@
+/*
+ * Copyright 2023 Marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 package dev.marlonlom.apps.glucoreo.onboarding
 
 import androidx.annotation.StringRes

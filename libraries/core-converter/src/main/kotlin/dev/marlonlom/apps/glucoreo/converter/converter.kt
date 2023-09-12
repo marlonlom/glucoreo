@@ -1,3 +1,8 @@
+/*
+ * Copyright 2023 Marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 package dev.marlonlom.apps.glucoreo.converter
 
 import dev.marlonlom.apps.glucoreo.converter.GlucoseConverterResult.Failure
@@ -28,17 +33,18 @@ object GlucoseConverter {
     value: Double,
     unit: MeasurementUnits
   ): GlucoseConverterResult = when {
-      (value < 0)-> {
-        Failure(
-          NegativeGlucoseAmountException()
-        )
-      }
-      else -> Success(
-        BloodGlucoseDetail(
-          unit = unit,
-          value = value
-        )
+    (value < 0) -> {
+      Failure(
+        NegativeGlucoseAmountException()
       )
+    }
+
+    else -> Success(
+      BloodGlucoseDetail(
+        unit = unit,
+        value = value
+      )
+    )
   }
 
   /**

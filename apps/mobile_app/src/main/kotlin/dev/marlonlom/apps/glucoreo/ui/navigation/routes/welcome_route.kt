@@ -1,12 +1,15 @@
+/*
+ * Copyright 2023 Marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 package dev.marlonlom.apps.glucoreo.ui.navigation.routes
 
 import android.app.Activity
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
-import dev.marlonlom.apps.glucoreo.R
 import dev.marlonlom.apps.glucoreo.ui.navigation.Destination
 import dev.marlonlom.apps.glucoreo.ui.navigation.NavigationActions
 import dev.marlonlom.apps.glucoreo.ui.signin.doSignIn

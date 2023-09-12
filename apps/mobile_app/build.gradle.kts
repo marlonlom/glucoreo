@@ -1,3 +1,8 @@
+/*
+ * Copyright 2023 Marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 @file:Suppress("DSL_SCOPE_VIOLATION")
 
 import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
