@@ -2,8 +2,7 @@ name: Android CI
 
 on:
   pull_request:
-    branches:
-      - '**'
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -11,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout the code
       - uses: actions/checkout@v3
 
       - name: Access properties
@@ -26,8 +24,7 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
-      - name: Setup gradle
-        run: gradle/gradle-build-action@v2
-
-      - name: Build project
-        run: ./gradlew assemble
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+      - name: Build with Gradle
+        run: ./gradlew build
