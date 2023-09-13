@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+      - uses: actions/checkout@v3
 
       - name: Access properties
         env:
@@ -19,7 +20,7 @@ jobs:
         run: echo GSI_WEB_CLIENT_ID=\"GSI_WEB_CLIENT_ID\" > ./local.properties
 
       - name: set up JDK 17
-        uses: actions/setup-java@v2
+        uses: actions/setup-java@v3
         with:
           java-version: '17'
           distribution: 'zulu'
@@ -28,11 +29,11 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x ./gradlew
 
-      - name: Run Tests
-        run: ./gradlew test
+      - name: Run Tests (Debug)
+        run: ./gradlew testDebug --stacktrace
 
-      - name: Build Project
-        run: ./gradlew assemble
+      - name: Build project (Debug)
+        run: ./gradlew assembleDebug --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v2
