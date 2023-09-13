@@ -33,7 +33,7 @@ jobs:
         run: ./gradlew test --stacktrace
 
       - name: Build project
-        run: ./gradlew assemble --stacktrace
+        run: ./gradlew build --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v2
